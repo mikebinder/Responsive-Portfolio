@@ -247,6 +247,45 @@ input[type=submit] {
 
 }
 
+@media screen and (min-width: 980px) {
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar, #mastehad {
+    width: 100%;
+  }
+
+  #main-content {
+    max-width:50%;
+  }
+
+  .sidebar {
+    margin-left: auto;
+    max-width: 40%;
+    float:right;
+  }
+#masthead {
+  position:sticky;
+}
+  #logo {
+    margin-left:0px;
+    float:left;
+  }
+
+  .nav {
+    margin-right:10px;
+  }
+.main-section {
+  max-width:50%;
+  float:left;
+}
+}
+
 @media screen and (max-width: 980px) {
 
   .wrapper {
